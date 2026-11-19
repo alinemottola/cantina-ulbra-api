@@ -292,7 +292,7 @@ Exemplo de resposta (200):
 
 TRANSAÇÕES DO KNEX
 
-No projeto foi usado o método `db.transition()` do Knex nas operações de criação e cancelamento de pedidos.
+No projeto foi usado o método `db.transaction()` do Knex nas operações de criação e cancelamento de pedidos.
 
 CRIAÇÃO DE PEDIDOS: 
 
